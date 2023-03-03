@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/css/form-style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assests/images/favicon.png" type="image/x-png">
+    <title>Got Lost! Page Not Found</title>
+
+<!-- Connection for Javascript"mail.js"-->
+<script src="./assests/js/mail.js"></script>
+
+
+ <!-- Script for mailjs-->
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("qzUTlqpk8WZkeoLtL");
+   })();
+</script>
+
+</head>
+<body oncontextmenu="return false">
+
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i> Harishankar </a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a href="./index.html">Get back to Home</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+<!-- Form section start -->
+<section class="contact" id="contact">
+  
+    <div class="container">
+      <div class="content">
+        <div class="card-body">
+          <h2>Contact Me🧡!</h2>
+        
+
+        <div class="form-control">
+          <label for="name"></label>
+          <input 
+                type="text" 
+                 
+                id="name" 
+                placeholder="Enter Name">
+        </div> 
+        
+        <div class="form-control">
+          <label for="email">:</label>
+          <input 
+                type="email" 
+                id="email" 
+                placeholder="Enter Email">
+        </div>
+        
+        <div class="form-control">
+          <label for="phone"></label>
+          <input 
+                type="number" 
+                id="phone" 
+                placeholder="Enter Phone number">
+        </div>
+
+      <div class="form-control">
+          <label for="message"></label>
+          <input
+                  id="message" 
+                  placeholder="Write a short Message here">
+      </div>
+
+      <div class="button-area">
+          <button  onclick="sendMail();">Send</button>
+        </div>
+      
+        </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Form section end -->
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Harishankar's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> There will be always a new thing to learn, So stay curious to learn always!</p>.
+      </div>
+
+     
+
+      <div class="box">
+          <h3>contact info</h3>
+         
+          <p> <i class="fas fa-envelope"></i>harishankarmurgan21@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Chennai, Tamil Nadu</p>
+      
+          <div class="share">
+
+            <a href="https://www.linkedin.com/in/harishankar-murugan-770b68263/" class="fab fa-linkedin" target="_blank"></a>
+            <a href="https://github.com" class="fab fa-github" target="_blank"></a>
+            <a href="mailto:harishankarmurugan21@gmail.com" class="fas fa-envelope" target="_blank"></a>
+            <a href="https://twitter.com" class="fab fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/hxppyflxke/" class="fab fa-instagram" target="_blank"></a>
+        </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.instagram.com/hxppyflxke/"> Harishankar </a></h1>
+
+</section>
+<!-- footer section ends -->
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="/assests/js/404.js"></script>
+
+
+</body>
+</html>
